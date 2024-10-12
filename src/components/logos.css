@@ -1,0 +1,16 @@
+@keyframes slideUp {
+    0% {
+      transform: translateY(100px);  /* Starts 100px below */
+      opacity: 0;                    /* Hidden at the start */
+    }
+    100% {
+      transform: translateY(0);       /* Ends at the original position */
+      opacity: 1;                     /* Fully visible */
+    }
+  }
+  
+  .animate-slideUp {
+    animation: slideUp 0.6s ease-out forwards;
+    opacity: 0;  /* Ensure the logos start as invisible */
+  }
+  
